@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>neqjewlx</title>
+
+    <!-- /*--  favicon --*/ -->
+
+    <link rel="icon" type="png" href="logos/favicon.png" />
+
+    <!-- /*--  Custom CSS --   */ -->
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- /*--  font-awesome --*/ -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <!-- /*--   bootstraps --*/ -->
+
+    <link
+      rel="stylesheet"
+      href="./bootstrap-4.3.1-dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <!-- /*--   header --*/ -->
+
+    <section class="Header">
+      <div class="div-11">
+        <h1 class="text-header2">YOUR ICE CHAINS ARE HERE</h1>
+      </div>
+
+      <a href="index.html">
+        <i
+          class="fa-solid fa-circle-arrow-left"
+          id="left-arrow"
+          style="cursor: pointer"
+        ></i
+      ></a>
+      <span class="back-text">BACK</span>
+
+      <!-- Navigation Links -->
+      <div class="nav_2" id="nav-2">
+        <a href="index.html" class="footer-link">Home</a>
+        <a href="shopcollection.html" class="footer-link" id="active-nav"
+          >Shop Collections</a
+        >
+        <a href="shopcollection3.html#Aboutus" class="footer-link">About Us</a>
+        <a href="shopcollection3.html#help" class="footer-link">Help</a>
+      </div>
+    </section>
+
+    <!-- /*--   Section 1--*/ -->
+
+    <div class="side-cart" id="side_cart">
+      <div class="title" style="padding: 5px">CART</div>
+      <hr />
+      <div id="title"></div>
+      <div class="bottom-part">
+        <button
+          id="btnch"
+          onclick="checkout()"
+          style="background-color: darkorange; float: left"
+        >
+          Checkout
+        </button>
+      </div>
+    </div>
+
+    <section id="product-1" class="section-p1">
+      <img src="chains/guccci invetor.png" id="gucci-logo" alt="" />
+      <div class="pro-container">
+        <div class="pro" id="item1">
+          <img src="chains/gucci2.png" alt="" />
+          <div class="des">
+            <h4>GUCCI ICED STAR</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h4 class="brand">gucci</h4>
+            <h4 class="price">$99</h4>
+          </div>
+          <i
+            class="fa-solid fa-cart-shopping shoppinglogo"
+            onclick="addtocart(item1)"
+          ></i>
+        </div>
+
+        <div class="pro" id="item2">
+          <img src="chains/cmg.png" alt="" />
+          <div class="des">
+            <h4>ICED DIAMOND</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="brand">cmg yo gotti</h4>
+            <h4 class="price">$268</h4>
+          </div>
+          <i
+            class="fa-solid fa-cart-shopping shoppinglogo"
+            onclick="addtocart(item2)"
+          ></i>
+        </div>
+
+        <div class="pro" id="item3">
+          <img src="chains/lv.png" alt="" />
+          <div class="des">
+            <h4>ICED GOLD</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h4 class="brand">chanel</h4>
+            <h4 class="price">$128</h4>
+          </div>
+          <i
+            class="fa-solid fa-cart-shopping shoppinglogo"
+            onclick="addtocart(item3)"
+          ></i>
+        </div>
+
+        <div class="pro" id="item4">
+          <img src="chains/ICE_home-removebg-preview-Photoroom.png" alt="" />
+          <div class="des">
+            <h4>CUBAN ICE</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h4 class="brand">gucci</h4>
+            <h4 class="price">$58</h4>
+          </div>
+          <i
+            class="fa-solid fa-cart-shopping shoppinglogo"
+            onclick="addtocart(item4)"
+          ></i>
+        </div>
+
+        <div class="pro" id="item5">
+          <img src="chains/cross.png" alt="" />
+          <div class="des">
+            <h4>LIGHT CROSS</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h4 class="brand">gucci</h4>
+            <h4 class="price">$168</h4>
+          </div>
+          <i
+            class="fa-solid fa-cart-shopping shoppinglogo"
+            onclick="addtocart(item5)"
+          ></i>
+        </div>
+      </div>
+    </section>
+
+    <section id="product-1" class="section-p1">
+      <div class="pro-container">
+        <div class="pro" id="item6">
+          <img src="chains/4pfsilver.png" alt="" />
+          <div class="des">
+            <h4>4PF ICED DIAMOND</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h4 class="brand">Lil baby</h4>
+            <h4 class="price">$338</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo" onclick="addtocart(item6)"></i>
+        </div>
+        <div class="pro" id="item7">
+          <img src="chains/7.png" alt="" />
+          <div class="des">
+            <h4>4PF SHINY ICE</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h4 class="brand">Lil baby</h4>
+            <h4 class="price">$228</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo" onclick="addtocart(item7)"></i>
+        </div>
+        <div class="pro" id="item8">
+          <img src="chains/4pfgold.png" alt="" />
+          <div class="des">
+            <h4>4PF ICED GOLD</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="brand">Lil baby</h4>
+            <h4 class="price">$438</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo" onclick="addtocart(item8)"></i>
+        </div>
+        <div class="pro" id="item9">
+          <img src="chains/9.png" alt="" />
+          <div class="des">
+            <h4>ICED GOLD</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h4 class="brand">tee grizely</h4>
+            <h4 class="price">$118</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo" onclick="addtocart(item9)"></i>
+        </div>
+    
+        <div class="pro" id="item10">
+          <img src="chains/10.png" alt="" />
+          <div class="des">
+            <h4>MIAMI CUBAN LINK</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h4 class="brand">tee grizely</h4>
+            <h4 class="price">$128</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo" onclick="addtocart(item10)"></i>
+        </div>
+      </div>
+      <img src="chains/4pf logo.png" id="chanel-logo" alt="" />
+    </section>
+
+    <section id="product-1" class="section-p1">
+      <div class="pro-container">
+        <div class="pro">
+          <img src="chains/6ix9ine-removebg-preview.png" alt="" />
+          <div class="des">
+            <h4>ICED GOLD</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="brand">6ix9ine</h4>
+            <h4 class="price">$308</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo"></i>
+        </div>
+        <div class="pro">
+          <img src="chains/6ix9ine_diamond-removebg-preview.png" alt="" />
+          <div class="des">
+            <h4>ICED DIAMOND</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="brand">6ix9ine</h4>
+            <h4 class="price">$348</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo"></i>
+        </div>
+        <div class="pro">
+          <img src="chains/Glorilla.jpg" alt="" />
+          <div class="des">
+            <h4>APE MIXED ICE</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="brand">glorilla</h4>
+            <h4 class="price">$78</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo"></i>
+        </div>
+        <div class="pro">
+          <img src="chains/ovo.png" alt="" />
+          <div class="des">
+            <h4>OVO ICED GOLD</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="brand">drake</h4>
+            <h4 class="price">$408</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo"></i>
+        </div>
+        <div class="pro">
+          <img src="chains/Rick Pendant.png" alt="" />
+          <div class="des">
+            <h4>ICED GOLD BLACK</h4>
+
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="brand">rick pendant</h4>
+            <h4 class="price">$198</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo"></i>
+        </div>
+      </div>
+      <img src="chains/gorilla.png" id="chanel-logo" alt="" />
+    </section>
+
+    <section id="product-1" class="section-p1">
+      <div class="pro-container">
+        <div class="pro">
+          <img src="chains/otf2.png" alt="" />
+          <div class="des">
+            <h4>OTF RINSED ICE</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="brand">Lil durk</h4>
+            <h4 class="price">$318</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo"></i>
+        </div>
+
+        <div class="pro">
+          <img src="chains/nuski.png" alt="" />
+          <div class="des">
+            <h4>ICED DIAMOND</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="brand">Lil durk</h4>
+            <h4 class="price">$328</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo"></i>
+        </div>
+        <div class="pro">
+          <img src="chains/moneyheisty.png" alt="" />
+          <div class="des">
+            <h4>ICED DIAMOND</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="brand">money heist</h4>
+            <h4 class="price">$368</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo"></i>
+        </div>
+
+        <div class="pro">
+          <img src="chains/otf600boys.png" alt="" />
+          <div class="des">
+            <h4>OTF ICED GOLD</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="brand">Lil durk</h4>
+            <h4 class="price">$338</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo"></i>
+        </div>
+        <div class="pro">
+          <img src="chains/the voice.png" alt="" />
+          <div class="des">
+            <h4>CUBAN ICE</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h4 class="brand">Lil durk</h4>
+            <h4 class="price">$228</h4>
+          </div>
+          <i class="fa-solid fa-cart-shopping shoppinglogo"></i>
+        </div>
+      </div>
+      <img src="chains/otf orange.jpg" id="chanel-logo" alt="" />
+    </section>
+
+    <section>
+      <div id="angle-arrow">
+        <a href="#" id="up-arrow"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </section>
+
+    <section class="move">
+      <div class="list">
+        <a href="index.html" class="btn-1">Back</a>
+        <a href="shopcollection.html" class="btn-1" id="btn-2">1</a>
+        <a href="shopcollection2.html" class="btn-1">2</a>
+        <a href="shopcollection3.html" class="btn-1">3</a>
+        <a href="shopcollection2.html" class="btn-1">Next</a>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="./bootstrap-4.3.1-dist/js/jquery-2.1.1.js"></script>
+    <script src="./bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
+  </body>
+</html>

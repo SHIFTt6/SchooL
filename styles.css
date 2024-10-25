@@ -1,0 +1,775 @@
+body {
+  margin: 0; /* removes the default margin of the body element */
+}
+
+.foreground-img img {
+  background-size: cover;
+  height: 55vh;
+  margin-left: 700px;
+  margin-top: 85px;
+  margin-bottom: 200px;
+}
+
+.foreground-img #hb1{
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 440px;
+  border: none;
+  padding: 10px 10px 15px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #03484e;
+  background: none;
+  background-image: url(logos/transparent-graphy-orange-color-brush-stroke-Photoroom.png);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foreground-img #hh3{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 320px;
+  color: #03484ea2;
+}
+
+.foreground-img #hh2{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 245px;
+  font-size: 40px;
+  color: #ff9100;
+}
+
+.foreground-img #hh1{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 170px;
+  font-size: 30px;
+}
+
+.foreground-img #hh0{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 110px;
+  font-size: 20px;
+}
+
+.home-text {
+  text-align: start;
+  background-image: url(logos/JEWLX-home1.jpg);
+  background-repeat: no-repeat;
+  background-color: rgba(239, 248, 248, 0.87);
+  padding: 12px;;
+  box-shadow: #000000 0px 0 25px 0px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.home-text h2{
+  color: #000000;
+  font-size: 35px;
+}
+
+.home-text #ht1{
+  color: #ffffff;
+  margin-top: 0;
+  margin-left: 120px;
+
+}
+
+.home-text #ht3{
+  margin-left: 1000px;
+  color: #e1fff8;
+  font-size: 20px;
+  position: absolute;
+  top: 0px;
+}
+
+.home-text #ht2{
+  margin-left: 300px;
+  color: #ffa52f;
+  font-size: 25px;
+}
+
+#ice_home{
+  width: 250px;
+  position: absolute;
+  margin-left: 1050px;
+  top: 390px;
+}
+
+.foreground-img2 img {
+  background-size: cover;
+  height: 55vh;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.foreground-img2 #hh4{
+  position: absolute;
+  margin-left: 700px;
+  bottom: -710px;
+  font-size: 25px;
+  color: #ff7b00;
+}
+
+.foreground-img2 #hh5{
+  position: absolute;
+  margin-left: 550px;
+  bottom: -470px;
+  font-size: 33px;
+  color: #000000d2;
+}
+
+.foreground-img2 #hh6{
+  position: absolute;
+  margin-left: 600px;
+  bottom: -530px;
+  font-size: 30px;
+  color: #03484e;
+}
+
+.foreground-img2 #hh7{
+  position: absolute;
+ ; margin-left: 700px;
+  bottom: -620px;
+  font-size: 12px;
+}
+
+.foreground-img2 #hh8{
+  position: absolute;
+  margin-left: 180px;
+  bottom: -670px;
+  font-size: 14px;
+  padding: 4px 8px 0px 10px;
+  background-image: url(logos/transparent-graphy-orange-color-brush-stroke-Photoroom.png);
+
+}
+
+.foreground-img #hh9{
+  position: absolute;
+  margin-left: 790px;
+  margin-top: 410px;
+  border: none;
+  padding: 1px 0px 1px 1px;
+  font-size: 13px;
+  font-weight: bold;
+  background: none;
+  background-image: url(logos/transparent-graphy-orange-color-brush-stroke-Photoroom.png);
+}
+
+
+/* HOME NAV SLIDER */
+
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.nav-slider {
+  position: fixed;
+  top: 0;
+  right: -550px; /* Hidden off-screen */
+  height: 70vh;
+  width: 250px;
+  background-color: rgb(239, 248, 248);
+  background-image: url(logos/JEWLX\ roundlogo.png);    
+  background-size: contain; /* Adjusts the image to fit the container */
+  background-position: bottom; /* Center the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+  transition: right 0.3s ease;
+  padding: 20px 20px 20px 10px;
+  z-index: 100; /* Ensure it's above other elements */
+}
+
+.nav-slider a {
+  display: block;
+  padding: 10px 5px 10px 10px;
+  color: #1a1a1a;
+  text-decoration: none;
+  margin: 5px 0;
+  background-color: #fdb04511;
+}
+
+.nav-slider a:hover {
+  background-color: #ffac40;
+  transition: all 0.25s;
+  border-radius: 10px;
+  color: #1a1a1a;
+  padding: 5px 10px 5px;
+}
+
+.nav-slider #active-nav{
+  background-color: #fdb04594;
+}
+
+#bars {
+  position: absolute;
+  top: 20px; /* Adjusts vertical positioning */
+  right: 300px; /* Adjusts horizontal positioning */
+  font-size: 30px; /* Adjust the size of the icon */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  color: #ff9100; /* Icon color */
+  z-index: 101; /* Ensure it's above the nav slider */
+}
+
+.div-1 #bars{
+  float: right;
+  margin-top: -60px;
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.explore-text {
+  color: #1a1a1a; /* Text color */
+  position:absolute;
+  top: 20px;
+  right: 200px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+/*  NON HOME NAV */
+
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.nav_2 a{
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.nav_2{
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  bottom: 3px;
+  left: 450px;
+}
+
+.nav_2:hover{
+  box-shadow: none;
+  background-color: white;
+  border: none;
+}
+
+.nav_2 #active-nav{
+  background-color: #ffac40;
+}
+
+
+
+.nav_3 a{
+  padding: 10px;
+  border-radius: 5px;
+  letter-spacing: 1px;  
+  color: #000000;
+  background-color: white;
+}
+
+.nav_3{
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  bottom: 3px;
+  left: 450px;
+}
+
+.nav_3:hover{
+  box-shadow: none;
+  background-color: white;
+  border: none;
+}
+
+.nav_3 #active-nav{
+  background-color: #ffac40;
+}
+
+
+/* FEATURE SECTION */
+
+
+.Header {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.Header :hover {
+  opacity: 1;
+  color: rgb(53, 73, 110);
+}
+
+.div-1 {
+  background-color: rgb(253, 255, 248);
+  background-image: url(logos/home.png);
+  opacity: 0.9;
+  height: 12vh;
+  padding: 20px;
+  letter-spacing: 10px;
+  line-height: 0.5;
+  position: relative;
+  box-shadow: 0px 5px 10px #8b9596b0;
+  transition: all 0.3s;
+}
+
+.div-1 .text-header {
+  font-size: 35px;
+  pointer-events: none;
+}
+
+.div-11 .text-header2 {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  pointer-events: none;
+}
+
+.div-1 #goback {
+  color: #ff9203;
+  font-weight: bold;
+  text-decoration: none;
+  background-image: url(logos/JEWLX\ mainlogo-modified.png);
+  border: none;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-left: -760px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.div-11 #logo {
+  position: absolute;
+  border-radius: 190px;
+  width: 140px;
+  right: 200px;
+  top: 20px;
+  pointer-events: none;
+}
+
+.div-11 #view-cart{
+  position: absolute;
+  right: 220px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  top: 20px;
+  color: #043661;
+  background-color: #00000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-11 {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.9;
+  height: 12vh;
+  padding: 18px;
+  letter-spacing: 10px;
+  line-height: 0.5;
+  position: relative;
+  box-shadow: 0px 5px 15px #8b9596b0;
+  transition: all 0.3s;
+}
+
+#cart{
+  right: 300px;
+  background-color: #ffffff;
+  margin-top: -90px;
+  position: absolute;
+}
+
+ #shoppinglogonav {
+  position: absolute;
+  width: 30px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px; 
+  color: #ffffff;
+  bottom: 0px;
+  right: 10px;
+  background-color: #0000009a;
+  padding: 0 10px 0 0px;
+}
+
+#cart-count {
+  margin-left: 15px; /* Space between icon and count */
+  font-weight: 500; /* Make count bold */
+  color: #ffa52f; /* Change color as needed */
+  font-size: 17px;
+  background-color: #ffffff00;
+}
+
+ .div-2 #header-list{
+ float: right;
+ display: flex;
+ list-style: none;
+ padding: 0 40px;
+ letter-spacing: 1px;
+}
+
+.active-navbar {
+  background-color:  rgb(248, 245, 239);
+}
+
+.section-p1 {
+  padding: 90px 10px 5px 0px;
+  position: relative;
+}
+
+.section-p1 #chanel-logo {
+  position: absolute;
+  width: 100px;
+  left: 15px;
+  top: 5px;
+  margin-left: 20px;
+}
+
+.section-p1 #gucci-logo {
+  position: absolute;
+  top: 5px;
+  width: 100px;
+  margin-left: 20px;
+}
+
+#product-1 .pro {
+  display: flex;
+  flex-direction: column;
+  width: 17.5%;
+  padding: 15px 10px 5px 10px;
+  text-align: center;
+  border: 1px solid rgb(207, 221, 209);
+  background-color: rgb(239, 247, 247);
+  position: absolute;
+  margin-left: 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+  line-height: 0;
+  position: relative;
+  box-shadow: 3px 3px 8px #03484e83;
+  cursor: pointer;
+}
+
+#product-1 .pro:hover {
+  box-shadow: 1px 1px 5px #03484e83;
+  background-color: rgb(252, 247, 241);
+  transition: 0.3s;
+}
+
+#product-1 .pro img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 0;
+}
+
+#product-1 .pro .star {
+  color: #05353a91;
+}
+
+#product-1 .pro .many {
+  display: flex;
+}
+
+#product-1 .pro .cart {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-left: -150px;
+  text-align: center;
+}
+
+#product-1 .pro .brand {
+  text-align: left;
+  color: #0c0c0c70;
+}
+
+#product-1 .pro .price {
+  color: #03484e;
+}
+
+#product-1 .pro .shoppinglogo {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px; 
+  background-color: rgba(109, 109, 109, 0.336);
+  border: 1px solid #00737e65;
+  bottom: 10px;
+  right: 10px;
+}
+
+.fa-cart-shopping:hover {
+  color: #ff9100;
+  padding: 2px;
+  transition: all 190ms;
+}
+
+#product-1 .pro-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+/*-- SECTION PART --*/
+
+.move {
+  align-content: center;
+  position: static;
+  bottom: 0;
+  background-color: #2c2a28;
+  padding: 10px 0px 10px 10px;
+  background-image: url(logos/NEQJEWLX\ HOME1.jpg);
+  box-shadow: 10px 5px 10px 5px#03484e;
+}
+
+.list {
+  display: inline;
+  margin-left: 580px;
+}
+
+.list .btn-1 {
+  background-color: #f1f1f1e0;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+}
+
+.list :hover {
+  background-color: #d8bf9f;
+  padding: 7px;
+}
+
+.list #btn-2 {
+  background-color: #ff9203;
+}
+
+
+/*BOTTOM SECTION*/
+
+
+.bottom {
+  background-color: rgb(239, 247, 247);
+  margin: 25px 40px;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 75px;
+  margin-bottom: 30px;
+}
+
+.bottom .About {
+  width: 50vw;
+  margin-left: 30px;
+}
+
+.bottom .small-nav{
+  width: 20vw;
+  margin: 40px;
+}
+
+.bottom .small-nav p, a{
+  text-decoration: none;
+  color: #337ab7;
+}
+.small-nav a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #ff9100; /* or any other color you prefer */
+}
+
+.payment-options {
+  display: flex; /* Use flexbox for horizontal alignment */
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the start */
+  gap: 10px; /* Space between images */
+  margin-top: 40px;
+}
+
+.payment-options img {
+  height: 30px; /* Set height of images */
+  width: auto; /* Maintain aspect ratio */
+  cursor: pointer; /* Change cursor on hover */
+  transition: transform 0.3s; /* Smooth transition for scaling */
+}
+
+.payment-options img:hover {
+  transform: scale(1.1); /* Scale up on hover */
+}
+
+
+/*-- BLOG SECTION --*/
+
+
+.blog-section {
+  margin: 40px;
+  margin-top: 50px;
+  padding: 30px 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-section p {
+  margin-bottom: 20px;
+}
+
+.blog-section a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.blog-section a:hover {
+  font-weight: bold;
+}
+
+/*-- HELP SECTION --*/
+
+.help-section {
+  margin: 40px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.help-section h2 {
+  margin-top: 0;
+}
+
+.help-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.help-section li {
+  margin-bottom: 10px;
+}
+
+.contact-section{
+  margin: 40px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section a {
+  text-decoration: none;
+  color: #236fb1;
+}
+
+.contact-section a:hover {
+  font-weight: normal;
+}
+
+
+/*-- FAQs SECTION --*/
+
+.FAQs-section{
+  margin: 40px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*-- TERMS SECTION --*/
+
+.terms-section{
+  margin: 40px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.terms-section a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.terms-section a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#left-arrow{
+  position: absolute;
+  top: 20px; /* Adjusts vertical positioning */
+  right: 50px; /* Adjusts horizontal positioning */
+  font-size: 24px; /* Adjust the size of the icon */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  color:rgb(255, 176, 56);
+  z-index: 101; /* Ensure it's above the nav slider */
+}
+
+.back-text{
+  font-size: 20px; /* Adjust font size as needed */
+  color: #1a1a1a; /* Text color */
+  position:absolute;
+  top: 50px;
+  right: 40px;
+  font-weight: bold;
+  font-size: 15px;
+  pointer-events: none;
+}
+
+#angle-arrow{
+  font-size: 30px;
+  color: #03484e;
+  display: flex;
+  justify-content: center;
+}
+
+#up-arrow{
+  background-color: #00737e4b;
+  padding: 10px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+#up-arrow :hover{
+  padding: 12px 12px 7px 12px;
+  transition: all 0.4s;
+}
+
+.side-cart{
+  width: 250px;
+  height: 300vh;
+  border: solid 1px black;
+  overflow-y: scroll;
+  text-align: center;
+  float: right;
+  font-size: 20px;
+  border: #555555;
+  background-color: rgb(239, 247, 247);
+}
+
+.title{
+  background-color: #ff9100;
+}
+
+.cartimg{
+  width: 200px;
+}
+
+.bottom-part #btnch{
+  margin-bottom: 0;
+}

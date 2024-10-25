@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "image": "chains/gucci2.jpeg",
+        "name": "GUCCI ICED STAR",
+        "price": 99
+    },
+    {
+        "id": 2,
+        "image": "chains/cmg.jpeg",
+        "name": "CMG ICED DIAMOND",
+        "price": 268
+    },
+    {
+        "id": 3,
+        "image": "chains/lv.png",
+        "name": "ICED GOLD",
+        "price": 128
+    },
+    {
+        "id": 4,
+        "image": "chains/ICE_home-removebg-preview-Photoroom.png",
+        "name": "CUBAN ICE",
+        "price": 58
+    },
+    {
+        "id": 5,
+        "image": "chains/cross.jpeg",
+        "name": "LIGHT CROSS",
+        "price": 168
+    },
+    {
+        "id": 6,
+        "image": "chains/4pfsilver.jpg",
+        "name": "4PF ICED DIAMOND",
+        "price": 338
+    },
+    {
+        "id": 7,
+        "image": "chains/7.png",
+        "name": "4PF SHINY ICE",
+        "price": 228
+    },
+    {
+        "id": 8,
+        "image": "chains/4pfgold.jpg",
+        "name": "4PF ICED GOLD",
+        "price": 438
+    },
+    {
+        "id": 9,
+        "image": "chains/9.png",
+        "name": "ICED GOLD",
+        "price": 118
+    },
+    {
+        "id": 10,
+        "image": "chains/10.png",
+        "name": "MIAMI CUBAN LINK",
+        "price": 128
+    },
+    {
+        "id": 11,
+        "image": "chains/6ix9ine-removebg-preview.png",
+        "name": "ICED GOLD",
+        "price": 308
+    },
+    {
+        "id": 12,
+        "image": "chains/6ix9ine_diamond-removebg-preview.png",
+        "name": "ICED DIAMOND",
+        "price": 348
+    },
+    {
+        "id": 13,
+        "image": "chains/Glorilla.jpg",
+        "name": "APE MIXED ICE",
+        "price": 78
+    },
+    {
+        "id": 14,
+        "image": "chains/ovo.jpg",
+        "name": "OVO ICED GOLD",
+        "price": 408
+    },
+    {
+        "id": 15,
+        "image": "chains/Rick Pendant.jpg",
+        "name": "ICED GOLD BLACK",
+        "price": 198
+    },
+    {
+        "id": 16,
+        "image": "chains/otf2.jpeg",
+        "name": "OTF RINSED ICE",
+        "price": 318
+    },
+    {
+        "id": 17,
+        "image": "chains/nuski.jpeg",
+        "name": "ICED DIAMOND",
+        "price": 328
+    },
+    {
+        "id": 18,
+        "image": "chains/moneyheisty.jpg",
+        "name": "ICED DIAMOND",
+        "price": 368
+    },
+    {
+        "id": 19,
+        "image": "chains/otf600boys.png",
+        "name": "OTF ICED GOLD",
+        "price": 338
+    },
+    {
+        "id": 20,
+        "image": "chains/the voice.jpeg",
+        "name": "CUBAN ICE",
+        "price": 228
+    },
+    {
+        "id": 21,
+        "image": "chains/TopShotta.png",
+        "name": "ICED GOLD",
+        "price": 399
+    },
+    {
+        "id": 22,
+        "image": "chains/NGU.jpg",
+        "name": "MIXED ICE",
+        "price": 116
+    },
+    {
+        "id": 23,
+        "image": "chains/Lackers2.jpeg",
+        "name": "CARRIBEAN ICE",
+        "price": 79
+    },
+    {
+        "id": 24,
+        "image": "chains/nbayung-removebg-preview.png",
+        "name": "ICED DIAMOND",
+        "price": 258
+    },
+    {
+        "id": 25,
+        "image": "chains/nba-removebg-preview.png",
+        "name": "ROSE ICED DIAMOND",
+        "price": 408
+    },
+    {
+        "id": 26,
+        "image": "chains/SMURK.png",
+        "name": "ICED DIAMOND",
+        "price": 308
+    },
+    {
+        "id": 27,
+        "image": "chains/OB.png",
+        "name": "DEEP ICED DIAMOND",
+        "price": 348
+    },
+    {
+        "id": 28,
+        "image": "chains/BIG BRR.png",
+        "name": "MIXED ICE",
+        "price": 138
+    },
+    {
+        "id": 29,
+        "image": "chains/v.roy.png",
+        "name": "CARIB ICED DIAMOND",
+        "price": 178
+    },
+    {
+        "id": 30,
+        "image": "chains/Plain.png",
+        "name": "SHINY ICED DIAMOND",
+        "price": 198
+    },
+    {
+        "id": 31,
+        "image": "chains/wicked logo.jpeg",
+        "name": "DEEP ICED DIAMOND",
+        "price": 128
+    },
+    {
+        "id": 32,
+        "image": "chains/wicked gang.jpeg",
+        "name": "ICED GOLD",
+        "price": 268
+    },
+    {
+        "id": 33,
+        "image": "chains/ak47-removebg-preview-Photoroom.png",
+        "name": "RINSED ICE",
+        "price": 108
+    },
+    {
+        "id": 34,
+        "image": "chains/wicked_chain2-removebg-preview.png",
+        "name": "DEEP ICED GOLD",
+        "price": 148
+    },
+    {
+        "id": 35,
+        "image": "chains/wicked_chain-removebg-preview.png",
+        "name": "MIXED ICE",
+        "price": 218
+    },
+    {
+        "id": 36,
+        "image": "chains/savagemode.png",
+        "name": "ICED DIAMOND",
+        "price": 113
+    },
+    {
+        "id": 37,
+        "image": "chains/31OO.jpeg",
+        "name": "DEEP ICED DIAMOND",
+        "price": 218
+    },
+    {
+        "id": 38,
+        "image": "chains/Webp-Photoroom (1).png",
+        "name": "STAR ICED DIAMOND",
+        "price": 112
+    },
+    {
+        "id": 39,
+        "image": "chains/cotton wood-Photoroom.png",
+        "name": "SHINY ICED DIAMOND",
+        "price": 279
+    },
+    {
+        "id": 40,
+        "image": "chains/PLAYA.jpeg",
+        "name": "CUBAN ICE",
+        "price": 188
+    }
+]
