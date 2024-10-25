@@ -752,7 +752,7 @@ body {
 
 .side-cart{
   width: 250px;
-  height: 200vh;
+  height: 150vh;
   border: solid 1px black;
   overflow-y: scroll;
   text-align: center;
